@@ -4,7 +4,7 @@
   "description": "Unit Testing Demo for BuddyWorks",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha || true"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-jquery": "^2.1.0",
+    "express-force-ssl": "^0.3.2",
     "mocha": "^7.1.0",
     "request": "^2.88.2"
   }
